@@ -7,4 +7,10 @@ add_executable(HealthyTrack main.cpp
         Usuario.cpp
         Usuario.h
         Habito.cpp
-        Habito.h)
+        Habito.h
+        Categoria.cpp
+        Categoria.h
+        HealtyTrack.cpp
+        HealtyTrack.h
+        RegistroDiario.cpp
+        RegistroDiario.h)
