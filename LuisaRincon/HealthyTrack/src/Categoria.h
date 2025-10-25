@@ -18,7 +18,7 @@ private:
 
 public:
     Categoria() = default;
-    Categoria(string,int,float);
+    Categoria(const string& nombreCategoria, int metaConsitencia, float factorMotivacional);
     void retornarRecomendacion();
 
 };
