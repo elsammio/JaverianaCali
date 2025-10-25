@@ -4,13 +4,13 @@ project(HealthyTrack)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(HealthyTrack main.cpp
-        Usuario.cpp
-        Usuario.h
-        Habito.cpp
-        Habito.h
-        Categoria.cpp
-        Categoria.h
-        HealtyTrack.cpp
-        HealtyTrack.h
-        RegistroDiario.cpp
-        RegistroDiario.h)
+        src/Usuario.cpp
+        src/Usuario.h
+        src/Habito.cpp
+        src/Habito.h
+        src/Categoria.cpp
+        src/Categoria.h
+        src/HealtyTrack.cpp
+        src/HealtyTrack.h
+        src/RegistroDiario.cpp
+        src/RegistroDiario.h)

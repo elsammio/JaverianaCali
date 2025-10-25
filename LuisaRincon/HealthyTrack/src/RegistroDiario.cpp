@@ -2,4 +2,4 @@
 // Created by samir.diaz on 24/10/2025.
 //
 
-#include "Usuario.h"
+#include "RegistroDiario.h"
