@@ -17,6 +17,10 @@ private:
     std::vector<Usuarios*> usuarios;
 
 public:
+    HealtyTrack() = default;
+    inicializarDatos();
+
+
 
 };
 
