@@ -4,4 +4,5 @@ project(JaverianaCali)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(JaverianaCali
-        LuisaRincon/CalculadoraSimple/main.cpp)
+        LuisaRincon/CalculadoraSimple/main.cpp
+        practica-herencia2-elsammio/src/Main.cpp)
