@@ -12,6 +12,7 @@ public:
     float altura;
 
     int areaTriangulo(float base, float altura);
+
     void baseTriangulo();
     void alturaTriangulo();
 

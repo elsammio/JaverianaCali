@@ -12,8 +12,9 @@ int  mostrarMenu()
     int opcion;
     cout << "Bienvenido a mi sistema de calculo de areas geometricas" << std::endl;
     cout << "Opcion 1 : Muestra la base del triangulo"<< std::endl;
-    cout << "Opcion 2 : Calcula el area del triangulo"<< std::endl;
-    cout << "Opcion 3 : Salir"<< std::endl;
+    cout << "Opcion 2 : Muestra el area del triangulo"<< std::endl;
+    cout << "Opcion 3 : Calcula el area del triangulo"<< std::endl;
+    cout << "Opcion 4 : Salir"<< std::endl;
     cin >> opcion;
     cin.ignore();
     return opcion;
@@ -23,15 +24,24 @@ int main()
 {
    int opcion = mostrarMenu();
    switch (opcion) {
+       Calculo calculo;
        case 1:
-           Calculo calculo;
            calculo.base = 5;
            calculo.baseTriangulo();
+       break;
        case 2:
            calculo.altura = 20;
            calculo.alturaTriangulo();
+       break;
+       case 3:
+       float base = 12;
+       float altura = 6;
+       calculo.areaTriangulo(base, altura);
+
+       break;
    }
 
     return 0;
     // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
+
 }

@@ -25,6 +25,9 @@ void Calculo::alturaTriangulo() {
 int Calculo::areaTriangulo(float base, float altura) {
 
     float area = (base * altura)/ 2;
-    return area;
+
+    cout << "el area del triangulo es: "<<area << std::endl;
+
+    return area ;
 }
 
