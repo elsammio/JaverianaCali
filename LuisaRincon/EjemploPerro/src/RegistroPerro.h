@@ -1,0 +1,13 @@
+//
+// Created by CRASHO on 23/11/2025.
+//
+
+#ifndef EJEMPLOPERRO_REGISTROPERRO_H
+#define EJEMPLOPERRO_REGISTROPERRO_H
+
+
+class RegistroPerro {
+};
+
+
+#endif //EJEMPLOPERRO_REGISTROPERRO_H
