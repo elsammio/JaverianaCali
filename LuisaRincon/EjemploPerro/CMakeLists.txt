@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(EjemploPerro main.cpp
         src/Perro.cpp
-        src/Perro.h)
+        src/Perro.h
+        src/RegistroPerro.cpp
+        src/RegistroPerro.h)
